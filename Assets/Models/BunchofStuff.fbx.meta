@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 354dde3e4cb5ea24f997efba255c5f8c
+timeCreated: 1538217629
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Basket_Rectangle
+    100002: Basket_Round
+    100004: Bed_Bunk
+    100006: Bed_Single
+    100008: Brazier_Metal
+    100010: Brazier_Stone
+    100012: Bucket_Wood
+    100014: //RootNode
+    100016: Cage_Hanging
+    100018: Candleabra_Ring
+    100020: Cart_Slave
+    100022: Crate_Rectangle
+    100024: Cuboard_Large
+    100026: Cuboard_Large_Drawer
+    100028: Cuboard_Short
+    100030: Cuboard_Short_Door1
+    100032: Cuboard_Short_Door2
+    100034: Enchanting_Table
+    100036: Inkwell_Metal
+    100038: Sack_Full
+    100040: Sack_Rect
+    100042: Sack_Square
+    100044: Stone_Bench
+    100046: Stone_Table
+    100048: Tray_Wood
+    400000: Basket_Rectangle
+    400002: Basket_Round
+    400004: Bed_Bunk
+    400006: Bed_Single
+    400008: Brazier_Metal
+    400010: Brazier_Stone
+    400012: Bucket_Wood
+    400014: //RootNode
+    400016: Cage_Hanging
+    400018: Candleabra_Ring
+    400020: Cart_Slave
+    400022: Crate_Rectangle
+    400024: Cuboard_Large
+    400026: Cuboard_Large_Drawer
+    400028: Cuboard_Short
+    400030: Cuboard_Short_Door1
+    400032: Cuboard_Short_Door2
+    400034: Enchanting_Table
+    400036: Inkwell_Metal
+    400038: Sack_Full
+    400040: Sack_Rect
+    400042: Sack_Square
+    400044: Stone_Bench
+    400046: Stone_Table
+    400048: Tray_Wood
+    2100000: StingrayPBS1
+    2100002: WoodMetal
+    2100004: Rope1
+    2300000: Basket_Rectangle
+    2300002: Basket_Round
+    2300004: Bed_Bunk
+    2300006: Bed_Single
+    2300008: Brazier_Metal
+    2300010: Brazier_Stone
+    2300012: Bucket_Wood
+    2300014: Cage_Hanging
+    2300016: Candleabra_Ring
+    2300018: Cart_Slave
+    2300020: Crate_Rectangle
+    2300022: Cuboard_Large
+    2300024: Cuboard_Large_Drawer
+    2300026: Cuboard_Short
+    2300028: Cuboard_Short_Door1
+    2300030: Cuboard_Short_Door2
+    2300032: Enchanting_Table
+    2300034: Inkwell_Metal
+    2300036: Sack_Full
+    2300038: Sack_Rect
+    2300040: Sack_Square
+    2300042: Stone_Bench
+    2300044: Stone_Table
+    2300046: Tray_Wood
+    3300000: Basket_Rectangle
+    3300002: Basket_Round
+    3300004: Bed_Bunk
+    3300006: Bed_Single
+    3300008: Brazier_Metal
+    3300010: Brazier_Stone
+    3300012: Bucket_Wood
+    3300014: Cage_Hanging
+    3300016: Candleabra_Ring
+    3300018: Cart_Slave
+    3300020: Crate_Rectangle
+    3300022: Cuboard_Large
+    3300024: Cuboard_Large_Drawer
+    3300026: Cuboard_Short
+    3300028: Cuboard_Short_Door1
+    3300030: Cuboard_Short_Door2
+    3300032: Enchanting_Table
+    3300034: Inkwell_Metal
+    3300036: Sack_Full
+    3300038: Sack_Rect
+    3300040: Sack_Square
+    3300042: Stone_Bench
+    3300044: Stone_Table
+    3300046: Tray_Wood
+    4300000: Stone_Bench
+    4300002: Stone_Table
+    4300004: Inkwell_Metal
+    4300006: Candleabra_Ring
+    4300008: Bed_Single
+    4300010: Bed_Bunk
+    4300012: Bucket_Wood
+    4300014: Basket_Round
+    4300016: Cage_Hanging
+    4300018: Crate_Rectangle
+    4300020: Cuboard_Large
+    4300022: Cuboard_Large_Drawer
+    4300024: Brazier_Stone
+    4300026: Brazier_Metal
+    4300028: Cuboard_Short
+    4300030: Cuboard_Short_Door1
+    4300032: Cuboard_Short_Door2
+    4300034: Cart_Slave
+    4300036: Tray_Wood
+    4300038: Enchanting_Table
+    4300040: Sack_Rect
+    4300042: Sack_Square
+    4300044: Sack_Full
+    4300046: Basket_Rectangle
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

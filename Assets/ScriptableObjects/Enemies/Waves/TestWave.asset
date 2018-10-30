@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1b26ef47c371ad4ba54459967200ad9, type: 3}
+  m_Name: TestWave
+  m_EditorClassIdentifier: 
+  spawnObjects:
+  - {fileID: 1234489282899860, guid: bf9217c7e27769a4f89e73ffbdc90667, type: 2}
+  - {fileID: 1234489282899860, guid: bf9217c7e27769a4f89e73ffbdc90667, type: 2}
+  - {fileID: 1234489282899860, guid: bf9217c7e27769a4f89e73ffbdc90667, type: 2}
+  - {fileID: 1234489282899860, guid: bf9217c7e27769a4f89e73ffbdc90667, type: 2}
+  - {fileID: 1234489282899860, guid: bf9217c7e27769a4f89e73ffbdc90667, type: 2}
+  - {fileID: 1234489282899860, guid: bf9217c7e27769a4f89e73ffbdc90667, type: 2}
+  - {fileID: 1234489282899860, guid: bf9217c7e27769a4f89e73ffbdc90667, type: 2}
+  - {fileID: 1234489282899860, guid: bf9217c7e27769a4f89e73ffbdc90667, type: 2}
+  - {fileID: 1234489282899860, guid: bf9217c7e27769a4f89e73ffbdc90667, type: 2}
+  - {fileID: 1234489282899860, guid: bf9217c7e27769a4f89e73ffbdc90667, type: 2}
+  randomisedObjects: 0

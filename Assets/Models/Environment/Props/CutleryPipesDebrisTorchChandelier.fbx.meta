@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: d4c7a7dde65203a45844235cbb13b217
+timeCreated: 1537236279
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Chandelier_Small
+    100002: Cutlery_Bowl
+    100004: Cutlery_Butterknife
+    100006: Cutlery_Cauldron
+    100008: Cutlery_Cookingpot
+    100010: Cutlery_Fork
+    100012: Cutlery_MeadMug
+    100014: Cutlery_Plate
+    100016: Cutlery_PlateRectangle
+    100018: Cutlery_Spoon
+    100020: //RootNode
+    100022: Metal_Debris1
+    100024: Metal_Debris2
+    100026: Metal_Debris3
+    100028: Pipe_Cap
+    100030: Pipe_CapBars
+    100032: Pipe_Corner
+    100034: Pipe_Mid
+    100036: Torch_Sconce
+    100038: Torch_Wood
+    100040: Wood_Debris1
+    100042: Wood_Debris2
+    100044: Wood_Debris3
+    400000: Chandelier_Small
+    400002: Cutlery_Bowl
+    400004: Cutlery_Butterknife
+    400006: Cutlery_Cauldron
+    400008: Cutlery_Cookingpot
+    400010: Cutlery_Fork
+    400012: Cutlery_MeadMug
+    400014: Cutlery_Plate
+    400016: Cutlery_PlateRectangle
+    400018: Cutlery_Spoon
+    400020: //RootNode
+    400022: Metal_Debris1
+    400024: Metal_Debris2
+    400026: Metal_Debris3
+    400028: Pipe_Cap
+    400030: Pipe_CapBars
+    400032: Pipe_Corner
+    400034: Pipe_Mid
+    400036: Torch_Sconce
+    400038: Torch_Wood
+    400040: Wood_Debris1
+    400042: Wood_Debris2
+    400044: Wood_Debris3
+    2100000: WoodMetal
+    2100002: lambert27
+    2300000: Chandelier_Small
+    2300002: Cutlery_Bowl
+    2300004: Cutlery_Butterknife
+    2300006: Cutlery_Cauldron
+    2300008: Cutlery_Cookingpot
+    2300010: Cutlery_Fork
+    2300012: Cutlery_MeadMug
+    2300014: Cutlery_Plate
+    2300016: Cutlery_PlateRectangle
+    2300018: Cutlery_Spoon
+    2300020: Metal_Debris1
+    2300022: Metal_Debris2
+    2300024: Metal_Debris3
+    2300026: Pipe_Cap
+    2300028: Pipe_CapBars
+    2300030: Pipe_Corner
+    2300032: Pipe_Mid
+    2300034: Torch_Sconce
+    2300036: Torch_Wood
+    2300038: Wood_Debris1
+    2300040: Wood_Debris2
+    2300042: Wood_Debris3
+    3300000: Chandelier_Small
+    3300002: Cutlery_Bowl
+    3300004: Cutlery_Butterknife
+    3300006: Cutlery_Cauldron
+    3300008: Cutlery_Cookingpot
+    3300010: Cutlery_Fork
+    3300012: Cutlery_MeadMug
+    3300014: Cutlery_Plate
+    3300016: Cutlery_PlateRectangle
+    3300018: Cutlery_Spoon
+    3300020: Metal_Debris1
+    3300022: Metal_Debris2
+    3300024: Metal_Debris3
+    3300026: Pipe_Cap
+    3300028: Pipe_CapBars
+    3300030: Pipe_Corner
+    3300032: Pipe_Mid
+    3300034: Torch_Sconce
+    3300036: Torch_Wood
+    3300038: Wood_Debris1
+    3300040: Wood_Debris2
+    3300042: Wood_Debris3
+    4300000: Torch_Wood
+    4300002: Cutlery_Plate
+    4300004: Torch_Sconce
+    4300006: Cutlery_PlateRectangle
+    4300008: Wood_Debris1
+    4300010: Wood_Debris2
+    4300012: Wood_Debris3
+    4300014: Metal_Debris1
+    4300016: Metal_Debris2
+    4300018: Metal_Debris3
+    4300020: Cutlery_Cauldron
+    4300022: Cutlery_Cookingpot
+    4300024: Cutlery_Bowl
+    4300026: Pipe_Cap
+    4300028: Pipe_CapBars
+    4300030: Pipe_Mid
+    4300032: Cutlery_Butterknife
+    4300034: Cutlery_Fork
+    4300036: Cutlery_Spoon
+    4300038: Cutlery_MeadMug
+    4300040: Pipe_Corner
+    4300042: Chandelier_Small
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,445 @@
+fileFormatVersion: 2
+guid: 14390c81d4a857b45b6e49f8b206262b
+timeCreated: 1533601409
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Boss
+    100002: BossRig_Head
+    100004: BossRig_Hips
+    100006: BossRig_LeftArm
+    100008: BossRig_LeftFoot
+    100010: BossRig_LeftForeArm
+    100012: BossRig_LeftHand
+    100014: BossRig_LeftLeg
+    100016: BossRig_LeftShoulder
+    100018: BossRig_LeftToeBase
+    100020: BossRig_LeftUpLeg
+    100022: BossRig_Neck
+    100024: BossRig_Reference
+    100026: BossRig_RightArm
+    100028: BossRig_RightFoot
+    100030: BossRig_RightForeArm
+    100032: BossRig_RightHand
+    100034: BossRig_RightLeg
+    100036: BossRig_RightShoulder
+    100038: BossRig_RightToeBase
+    100040: BossRig_RightUpLeg
+    100042: BossRig_Spine
+    100044: BossRig_Spine1
+    100046: BossRig_Spine2
+    100048: //RootNode
+    400000: Boss
+    400002: BossRig_Head
+    400004: BossRig_Hips
+    400006: BossRig_LeftArm
+    400008: BossRig_LeftFoot
+    400010: BossRig_LeftForeArm
+    400012: BossRig_LeftHand
+    400014: BossRig_LeftLeg
+    400016: BossRig_LeftShoulder
+    400018: BossRig_LeftToeBase
+    400020: BossRig_LeftUpLeg
+    400022: BossRig_Neck
+    400024: BossRig_Reference
+    400026: BossRig_RightArm
+    400028: BossRig_RightFoot
+    400030: BossRig_RightForeArm
+    400032: BossRig_RightHand
+    400034: BossRig_RightLeg
+    400036: BossRig_RightShoulder
+    400038: BossRig_RightToeBase
+    400040: BossRig_RightUpLeg
+    400042: BossRig_Spine
+    400044: BossRig_Spine1
+    400046: BossRig_Spine2
+    400048: //RootNode
+    2100000: Cloth
+    2100002: Armour
+    2100004: Chainmail
+    2100006: Eyes
+    4300000: Boss
+    9500000: //RootNode
+    13700000: Boss
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: BossRig_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BossRig_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: BossSkinTest(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss
+      parentName: BossSkinTest(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_Reference
+      parentName: BossSkinTest(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_Hips
+      parentName: BossRig_Reference
+      position: {x: -0, y: 2.1167426, z: 0.04028986}
+      rotation: {x: 0.48529533, y: -0.5142844, z: -0.48529533, w: 0.5142844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_LeftUpLeg
+      parentName: BossRig_Hips
+      position: {x: 0.007754339, y: -0.014271976, z: 0.26312292}
+      rotation: {x: -0.03945477, y: -0.005864185, z: 0.9966445, w: 0.07147526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_LeftLeg
+      parentName: BossRig_LeftUpLeg
+      position: {x: -0.89402807, y: 2.2204459e-17, z: 1.4210854e-16}
+      rotation: {x: -0.023205418, y: 0.0012642643, z: -0.054488573, w: 0.9982439}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_LeftFoot
+      parentName: BossRig_LeftLeg
+      position: {x: -0.9153528, y: -1.3322676e-17, z: 2.4868996e-16}
+      rotation: {x: -0.022726314, y: -0.008657165, z: 0.57530826, w: 0.8175751}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_LeftToeBase
+      parentName: BossRig_LeftFoot
+      position: {x: -0.4387707, y: -0.00000000437678, z: 0.000000013146232}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_RightUpLeg
+      parentName: BossRig_Hips
+      position: {x: 0.007754339, y: -0.014271976, z: -0.26312292}
+      rotation: {x: -0.0058596376, y: 0.039453868, z: -0.071481936, w: 0.9966441}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_RightLeg
+      parentName: BossRig_RightUpLeg
+      position: {x: 0.89402807, y: -6.183044e-10, z: 1.7763567e-16}
+      rotation: {x: -0.023188738, y: 0.0012633707, z: -0.054476567, w: 0.998245}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_RightFoot
+      parentName: BossRig_RightLeg
+      position: {x: 0.9153528, y: -4.440892e-18, z: 2.4868996e-16}
+      rotation: {x: -0.022743246, y: -0.008643564, z: 0.5753042, w: 0.8175776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_RightToeBase
+      parentName: BossRig_RightFoot
+      position: {x: 0.43877065, y: 2.2430366e-10, z: -0.000000002578239}
+      rotation: {x: 0.000025383071, y: -0.000000015926322, z: 4.0425898e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_Spine
+      parentName: BossRig_Hips
+      position: {x: -0.23272896, y: 0.0000000030530654, z: -5.167621e-17}
+      rotation: {x: 0, y: 0, z: 0.08215417, w: 0.99661964}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_Spine1
+      parentName: BossRig_Spine
+      position: {x: -0.24554609, y: 0.0000000012181662, z: -6.271437e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_Spine2
+      parentName: BossRig_Spine1
+      position: {x: -0.24554594, y: -0.00000003245022, z: -6.2714346e-17}
+      rotation: {x: 0, y: -0, z: -0.11510433, w: 0.9933534}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_LeftShoulder
+      parentName: BossRig_Spine2
+      position: {x: -0.51118165, y: -0.0112922145, z: 0.1975406}
+      rotation: {x: -0.47706622, y: 0.52192706, z: 0.5258403, w: 0.47274938}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_LeftArm
+      parentName: BossRig_LeftShoulder
+      position: {x: -0.44832194, y: -0.00000015792824, z: 3.5527136e-17}
+      rotation: {x: 0.7121714, y: -0.019604178, z: -0.020899596, w: 0.7014206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_LeftForeArm
+      parentName: BossRig_LeftArm
+      position: {x: -0.59032327, y: -3.5527136e-17, z: 1.7053025e-15}
+      rotation: {x: 0, y: 0, z: -0.032625273, w: 0.9994677}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_LeftHand
+      parentName: BossRig_LeftForeArm
+      position: {x: -0.5074246, y: 3.5527136e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_RightShoulder
+      parentName: BossRig_Spine2
+      position: {x: -0.51118165, y: -0.0112922145, z: -0.19754063}
+      rotation: {x: 0.521927, y: 0.47706628, z: -0.47274938, w: 0.5258403}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_RightArm
+      parentName: BossRig_RightShoulder
+      position: {x: 0.4483219, y: 0.00000015979428, z: -1.7763568e-17}
+      rotation: {x: 0.7121714, y: -0.01960399, z: -0.020899642, w: 0.70142055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_RightForeArm
+      parentName: BossRig_RightArm
+      position: {x: 0.59032327, y: -3.5527136e-17, z: 5.684342e-16}
+      rotation: {x: -0.00000003236034, y: -0.0000009913928, z: -0.03262392, w: 0.99946773}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_RightHand
+      parentName: BossRig_RightForeArm
+      position: {x: 0.5074246, y: -7.105427e-17, z: -1.7053025e-15}
+      rotation: {x: 0, y: 0.00000071039693, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_Neck
+      parentName: BossRig_Spine2
+      position: {x: -0.6577567, y: -0.0000000021901376, z: -1.3606577e-16}
+      rotation: {x: -0, y: -0, z: -0.24011028, w: 0.9707456}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BossRig_Head
+      parentName: BossRig_Neck
+      position: {x: -0.37341452, y: 0.0000001066499, z: -1.16442355e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
