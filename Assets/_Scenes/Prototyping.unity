@@ -1375,7 +1375,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114285010939290522, guid: dc06161b6d97feb419f45f03b62e14b9,
         type: 2}
@@ -1688,6 +1688,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -1779,6 +1780,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -6710,6 +6712,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -6801,6 +6804,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -7994,6 +7998,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -8085,6 +8090,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -8349,6 +8355,8 @@ MonoBehaviour:
   healthRegenThreshold: 0
   healthRegenDelay: 0
   healthRegenAmount: 0
+  lowHealthSound: {fileID: 0}
+  damageSound: {fileID: 0}
   faceSphere: {fileID: 0}
   dissolveShaderHandle: 
   dissolveInTime: 0
@@ -11752,6 +11760,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -12383,6 +12392,56 @@ Transform:
   m_Father: {fileID: 338497775}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &400512614
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4587027096978348, guid: 94bcde24881f3ec43a8e27cb33338e79, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -65.2443
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587027096978348, guid: 94bcde24881f3ec43a8e27cb33338e79, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 5.2574315
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587027096978348, guid: 94bcde24881f3ec43a8e27cb33338e79, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -15.160723
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587027096978348, guid: 94bcde24881f3ec43a8e27cb33338e79, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587027096978348, guid: 94bcde24881f3ec43a8e27cb33338e79, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587027096978348, guid: 94bcde24881f3ec43a8e27cb33338e79, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587027096978348, guid: 94bcde24881f3ec43a8e27cb33338e79, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587027096978348, guid: 94bcde24881f3ec43a8e27cb33338e79, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217694531092626, guid: 94bcde24881f3ec43a8e27cb33338e79, type: 2}
+      propertyPath: m_Name
+      value: AnchorChainLink (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587027096978348, guid: 94bcde24881f3ec43a8e27cb33338e79, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90.00001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 94bcde24881f3ec43a8e27cb33338e79, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &400527684
 Prefab:
   m_ObjectHideFlags: 0
@@ -12698,6 +12757,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -17535,7 +17595,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  returnTime: 8
   startedMoveSound: {fileID: 0}
   finishedMoveSound: {fileID: 0}
   returnFinishedSound: {fileID: 0}
@@ -19012,6 +19071,60 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f8a3b48f8ef465e469d47f8cadaa81f4, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &690855514
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4939898695730184, guid: 2be140a6c551c264c94848a72adff296, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -65.13778
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939898695730184, guid: 2be140a6c551c264c94848a72adff296, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 5.2574315
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939898695730184, guid: 2be140a6c551c264c94848a72adff296, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -15.160723
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939898695730184, guid: 2be140a6c551c264c94848a72adff296, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939898695730184, guid: 2be140a6c551c264c94848a72adff296, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939898695730184, guid: 2be140a6c551c264c94848a72adff296, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939898695730184, guid: 2be140a6c551c264c94848a72adff296, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939898695730184, guid: 2be140a6c551c264c94848a72adff296, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939898695730184, guid: 2be140a6c551c264c94848a72adff296, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.3000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939898695730184, guid: 2be140a6c551c264c94848a72adff296, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.3000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939898695730184, guid: 2be140a6c551c264c94848a72adff296, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2be140a6c551c264c94848a72adff296, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &693737179
 GameObject:
   m_ObjectHideFlags: 0
@@ -19637,7 +19750,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  returnTime: 10
   startedMoveSound: {fileID: 0}
   finishedMoveSound: {fileID: 0}
   returnFinishedSound: {fileID: 0}
@@ -22051,6 +22163,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -23957,6 +24070,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   deathObjectForceMultiplier: 0
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -24360,6 +24474,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -24690,6 +24805,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   deathObjectForceMultiplier: 0
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -26358,6 +26474,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -27895,6 +28012,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -28917,6 +29035,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -29172,6 +29291,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   deathObjectForceMultiplier: 0
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -29613,7 +29733,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1149226924
 Prefab:
@@ -30331,6 +30451,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -30422,6 +30543,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -32067,6 +32189,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -34341,6 +34464,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -35556,6 +35680,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -37631,7 +37756,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  returnTime: 0
   startedMoveSound: {fileID: 0}
   finishedMoveSound: {fileID: 0}
   returnFinishedSound: {fileID: 0}
@@ -37830,7 +37954,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  returnTime: 0
   startedMoveSound: {fileID: 0}
   finishedMoveSound: {fileID: 0}
   returnFinishedSound: {fileID: 0}
@@ -38827,6 +38950,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -40685,6 +40809,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -40858,6 +40983,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -41537,6 +41663,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -43300,6 +43427,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -48856,6 +48984,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -49096,7 +49225,7 @@ Transform:
   - {fileID: 693737180}
   - {fileID: 1885056352}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1934639269
 GameObject:
@@ -53633,6 +53762,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -61707,6 +61837,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -63411,6 +63542,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   deathObjectForceMultiplier: 45
+  deparentOnDeath: 0
   onTakeDamage:
     m_PersistentCalls:
       m_Calls: []

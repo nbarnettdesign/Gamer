@@ -23,6 +23,8 @@ GameObject:
   - component: {fileID: 23688864155287018}
   - component: {fileID: 136553542602202560}
   - component: {fileID: 54857051260763868}
+  - component: {fileID: 114762439973469070}
+  - component: {fileID: 114812138797321320}
   m_Layer: 14
   m_Name: Bone
   m_TagString: Untagged
@@ -36,13 +38,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1150377719110298}
-  m_LocalRotation: {x: -0.53089345, y: 0.4058188, z: 0.39297584, w: 0.63169074}
-  m_LocalPosition: {x: 22.699, y: 7.9, z: -6.561}
+  m_LocalRotation: {x: -0, y: -0.68441236, z: -0, w: 0.7290952}
+  m_LocalPosition: {x: 26.025, y: 0.513, z: 35.971}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -81.759, y: 41.754, z: 27.231}
+  m_LocalEulerAnglesHint: {x: 0, y: -86.379005, z: 0}
 --- !u!23 &23688864155287018
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -57,7 +59,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: a5322eb612da3594da04fcf68b75e9eb, type: 3}
+  - {fileID: 2100000, guid: 568477f0f11c34e4893bb427ee250424, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -99,6 +101,81 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114762439973469070
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1150377719110298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
+--- !u!114 &114812138797321320
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1150377719110298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handHoverMaterial: {fileID: 2100000, guid: 900e02d0206a7174b87e550efc102045, type: 2}
+  arrowHoverMaterial: {fileID: 0}
+  attachmentFlags: 12
+  attachmentPoint: 
+  catchSpeedThreshold: 0
+  restoreOriginalParent: 0
+  attachEaseIn: 1
+  snapAttachEaseInCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  snapAttachEaseInTime: 0.45
+  attachEaseInAttachmentNames: []
+  thrownVelocityModifier: 2
+  thrownVelocityMinimum: 0.5
+  damageSelfOnImpact: 0
+  impactDamageMagnitude: 0
+  impactForce: 0
+  onPickUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onDetachFromHand:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  snapAttachEaseInCompleted: 0
+  awakeImpactVelocity: 0
+  moveToGround: 0
+  sittingLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  kinematicOnStart: 1
+  preventTeleportInHand: 0
 --- !u!136 &136553542602202560
 CapsuleCollider:
   m_ObjectHideFlags: 1

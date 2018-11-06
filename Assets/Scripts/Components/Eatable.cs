@@ -2,7 +2,6 @@
 using UnityEngine;
 using Valve.VR.InteractionSystem;
 
-[RequireComponent(typeof(Throwable))]
 public class Eatable : MonoBehaviour {
     [SerializeField] private float healthAmount;
     [SerializeField] private float eatingTime;
@@ -21,6 +20,9 @@ public class Eatable : MonoBehaviour {
     private void Start()
     {
         throwable = GetComponent<Throwable>();
+
+        if (throwable == null)
+            throwable = GetComponentInParent<Throwable>();
     }
 
     private void Eat(Affectable affectable)

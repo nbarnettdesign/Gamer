@@ -589,7 +589,7 @@ MonoBehaviour:
   inherritSettings: 0
   explosionImmune: 0
   arrowImmune: 0
-  impactImmune: 1
+  impactImmune: 0
   startingHealth: 1
   invulnerabilityDuration: 0
   preventDamageFlash: 0
@@ -599,8 +599,8 @@ MonoBehaviour:
   damageParticle: {fileID: 1884404340207316, guid: 4557443e5e406ea41a0aa39312a196b3,
     type: 2}
   damageSound: {fileID: 114177383761249712}
-  breakableWeight: 0
-  minBreakVelocity: 0
+  breakableWeight: 1
+  minBreakVelocity: 0.5
   deathObjects:
   - {fileID: 1508505016041428, guid: 819b7873593e18d4ca3a480691ac5f6a, type: 2}
   deathParticle: {fileID: 1850012038665842, guid: 140867d9e92e79e44bd3076242505933,

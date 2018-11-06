@@ -266,7 +266,7 @@ ModelImporter:
     13700004: Cultist_Mesh
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1

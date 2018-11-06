@@ -275,7 +275,7 @@ ModelImporter:
     13700002: Cultist_Rig_3:Cultist_Mesh
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1

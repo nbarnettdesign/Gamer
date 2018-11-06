@@ -33,6 +33,7 @@ namespace Valve.VR.InteractionSystem {
         [SerializeField] private bool damageSelfOnImpact;
         [Range(0f, 10f), Tooltip("If velocity magnitude on impact is longer than this apply damage")]
         [SerializeField] private float impactDamageMagnitude;
+        [SerializeField] private ObjectWeight impactForce;
 
         public Hand AttachedToHand { get { return attachedToHand; } }
         public bool HasThrown { get { return hasThrown; } }

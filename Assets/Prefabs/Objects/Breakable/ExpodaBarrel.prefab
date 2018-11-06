@@ -429,7 +429,7 @@ MonoBehaviour:
   explosionImmune: 1
   arrowImmune: 1
   impactImmune: 1
-  explodeRadius: 8
+  explodeRadius: 6
   explodeLayer:
     serializedVersion: 2
     m_Bits: 24064

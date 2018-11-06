@@ -1293,7 +1293,7 @@ MonoBehaviour:
   targetPhysMaterial:
   - {fileID: 13400000, guid: c509d5711dc2cc346be2763cd92383ca, type: 2}
   - {fileID: 13400000, guid: 26daabbe3bb6ed6479515eab92128c60, type: 2}
-  minStickVelocity: 0.3
+  minStickVelocity: 0.1
   impalePhysMaterial: {fileID: 13400000, guid: 1ee0dcd72e05063439b88c22174b6329, type: 2}
   minImpaleVelocity: 1
   reflectPhysMaterial: {fileID: 13400000, guid: 3db50234b48aa684faf584fff99b0e2b,

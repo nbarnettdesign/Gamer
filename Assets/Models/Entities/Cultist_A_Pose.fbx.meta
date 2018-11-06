@@ -283,7 +283,7 @@ ModelImporter:
     13700004: Cultist_Rig_3:Cultist_Mesh
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -293,7 +293,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Copied Avatar Rig Configuration mis-match. Transform hierarchy
+      does not match:\n\tCannot find root motion transform 'Cultist_6_AnimRef:Cultist_Rig_3:Ctrl_World'.\n"
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 

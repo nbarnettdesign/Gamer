@@ -14,6 +14,7 @@ public class BowAnchor : MonoBehaviour
     [Header("Chain Settings")]
     [SerializeField] private float maxChainDistanceSqr;
     [SerializeField] private GameObject chain;
+    [SerializeField] private GameObject chainLinkPrefab;
     [SerializeField] private int segments;
     [SerializeField] private float followSpeed;
     [Tooltip("Transform to anchor the chain to, if null will go to this transform")]
@@ -41,6 +42,7 @@ public class BowAnchor : MonoBehaviour
     private GameObject followingObject;
     private AnchorPoint anchoredPoint;
     private LineRenderer chainRenderer;
+    private List<GameObject> chainLinks;
     private Longbow bow;
     private VelocityEstimator velocityEstimator;
 
@@ -68,6 +70,23 @@ public class BowAnchor : MonoBehaviour
 
         if(Teleport.instance)
             Teleport.instance.onTeleport += BreakAnchor;
+
+        chainLinks = new List<GameObject>();
+
+        for (int i = 0; i < chainRenderer.positionCount; i++)
+        {
+            GameObject link = SimplePool.Spawn(chainLinkPrefab, transform.position, Quaternion.identity);
+
+            if(i % 2 != 0)
+            {
+                Vector3 rotation = new Vector3(90, 0, 0);
+                link.transform.rotation = Quaternion.Euler(rotation);
+            }
+
+            link.transform.SetParent(transform);
+            link.SetActive(false);
+            chainLinks.Add(link);
+        }
     }
 
     private void Update()
@@ -139,6 +158,11 @@ public class BowAnchor : MonoBehaviour
         {
             chainRenderer.gameObject.SetActive(false);
             renderChain = false;
+
+            for (int i = 0; i < chainLinks.Count; i++)
+            {
+                chainLinks[i].SetActive(false);
+            }
         }
         
 
@@ -172,7 +196,12 @@ public class BowAnchor : MonoBehaviour
         chainRenderer.gameObject.SetActive(true);
 
         chainRenderer.SetPosition(0, anchorTransform.position);
+        chainLinks[0].transform.position = anchorTransform.position;
+        chainLinks[0].SetActive(true);
+
         chainRenderer.SetPosition(chainRenderer.positionCount - 1, followingObject.transform.position);
+        chainLinks[chainRenderer.positionCount - 1].transform.position = followingObject.transform.position;
+        chainLinks[0].SetActive(true);
 
         Vector3 directionNormalized = (chainRenderer.GetPosition(chainRenderer.positionCount - 1) - chainRenderer.GetPosition(0)).normalized;
         float totalDistance = Vector3.Distance(chainRenderer.GetPosition(0), chainRenderer.GetPosition(chainRenderer.positionCount - 1));
@@ -185,6 +214,8 @@ public class BowAnchor : MonoBehaviour
             currentPos += directionNormalized * distance;
 
             chainRenderer.SetPosition(i, currentPos);
+            chainLinks[i].transform.position = currentPos;
+            chainLinks[i].SetActive(true);
         }
     }
 
@@ -201,16 +232,23 @@ public class BowAnchor : MonoBehaviour
         }
 
         if (chainRenderer.GetPosition(0) != anchorTransform.position)
+        {
             chainRenderer.SetPosition(0, anchorTransform.position);
+            chainLinks[0].transform.position = anchorTransform.position;
+        }
 
         for (int i = 1; i < chainRenderer.positionCount - 1; i++)
         {
             Vector3 targetPos = Vector3.Lerp(chainRenderer.GetPosition(i - 1), chainRenderer.GetPosition(i + 1), 0.5f);
             chainRenderer.SetPosition(i, Vector3.MoveTowards(chainRenderer.GetPosition(i), targetPos, followSpeed * Time.deltaTime));
+            chainLinks[i].transform.position = chainRenderer.GetPosition(i);
         }
 
         if (chainRenderer.GetPosition(chainRenderer.positionCount - 1) != followingObject.transform.position)
+        {
             chainRenderer.SetPosition(chainRenderer.positionCount - 1, followingObject.transform.position);
+            chainLinks[chainRenderer.positionCount - 1].transform.position = followingObject.transform.position;
+        }
     }
 
     private void UpdateVelocity()
